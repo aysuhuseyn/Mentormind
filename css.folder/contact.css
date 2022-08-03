@@ -3616,7 +3616,7 @@ blockquote cite:after {
     margin-bottom: 16px;
 }
 .navbar {
-    background-color: black;
+    background-color: #005fb1a1;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -3627,7 +3627,7 @@ blockquote cite:after {
 }
 /* about us */
 .about{
-    background-color: cadetblue;
+    background-color: #c6ecff;
     height: 530px;
     padding: 26vh;
     background-image: url(.././assest/curve-top-white.png);
@@ -3646,6 +3646,19 @@ blockquote cite:after {
 .mentor_mind{
     margin-left: 49vh;
     width: 102vh;
+    border: 1px solid #c6e8f1;
+    width: 61vh;
+    margin: 1vh;
+    background-color: #d3f0f74d;
+    margin-top: 45vh;
+    
+}
+.mentor_mind_2{
+    border: 1px solid pink;
+    width: 57vh;
+    margin-top: -38vh;
+    margin-left: 64vh;
+    height: 37vh;
 }
 .mentor_mind>a>i{
     font-size: 57px;
