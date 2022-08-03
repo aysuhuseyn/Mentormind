@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="./css.folder/mainpage.css">
+    <link rel="icon" type="image/x-icon" href="./assest/mentormind-removebg-preview_1.png">
+    <script src="https://kit.fontawesome.com/f9a01ea1da.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="chat_container">
+        <div class="friends">
+            <div style="display: flex;">
+            <h1>Chats</h1>
+            <a href="" id="darkmood">
+                <i class="fa-solid fa-moon"></i>
+            </a>
+        </div>
+            <form action="">
+                <!-- <input type="search"> -->
+                <input type="text" class="form-control bg-light border-0 pe-0" placeholder="Search here.."
+                    aria-label="Example text with button addon" aria-describedby="searchbtn-addon">
+            </form>
+            <h5>FAVOURITES</h5>
+            <div class="chat_active">
+                <div class="profile">
+                    <img src="./assest/pexels-photo-1448712.jpg" alt="img">
+                </div>
+                <div class="name">
+                    <h2>Emmely Martinez</h2>
+                </div>
+            </div>
+
+            <div class="chat_active">
+                <div class="profile">
+                    <img  src="./assest/pexels-photo-3252762.jpg" alt="img">
+                </div>
+                <div class="name">
+                    <h2>Anastasia Svirshevska</h2>
+                </div>
+            </div>
+        </div>
+        <div class="chat">
+            <div class="background">
+
+            </div>
+            <div class="chat_top">
+                    <div class="active_profile">
+                        <img src="./assest/pexels-photo-1448712.jpg" alt="img">
+                    </div>
+                    <div class="active_name">
+                        <h2>Emmely Martinez</h2>
+                </div>
+                    <div style=" 
+                       margin-left: 61vh;
+                      margin-top: 15px;">
+                      <a ><i class="fa-solid fa-magnifying-glass"></i> </a>
+                      <a href=""><i class="fa-solid fa-phone"></i></a>
+                      <a href="./meet.html"><i class="fa-solid fa-video"></i></a>
+                      <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                      <a href=""><i class="fa-solid fa-circle-info"></i></a>
+                    </div>
+            </div>
+            <div class="icon">
+            <a href=""><i class="fa-solid fa-ellipsis"></i></a>
+            <a href=""><i class="fa-solid fa-face-smile"></i></a>
+            <input id="chat-input" placeholder="Type your message..." autocomplete="off" type="text"
+                class="form-control form-control-lg chat-input form-control" value>
+            <a href=""><i class="fa-solid fa-microphone"></i></a>
+            <a><i class="fa-solid fa-green fa-paper-plane"></i></a>
+        </div>
+        </div>
+    </div>
+<script src="./index.js"></script>
+</body>
+
+</html>
