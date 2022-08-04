@@ -93,8 +93,6 @@ body {
 .item {
     height: 100vh;
     width: 100vh;
-    background-color: #5f9ea0;
-    color: white;
     font-size: 20px;
 }
 
@@ -240,3 +238,51 @@ h6 {
 /* .article_body{
     border: 20px solid #787878;
 } */
+.line{
+    border-left: 5px solid white;
+    position: absolute;
+    left: 37vh;
+    height: 48vh;
+    top: 38vh;
+}
+.customer{
+    background-color: #b6ceeb;
+    margin-bottom: 20vh;
+    padding-bottom: 57vh;
+    padding-top: 7vh;
+    margin-top: 16vh;
+}
+.customer p{
+    margin-left: 40vh;
+    font-size: 23px;
+    margin-top: -7vh;
+}
+bold{
+    color: #b6ceeb;
+    font-size: 7vh;  
+}
+.customer>img{
+width: 34vh;
+height: 32vh;
+border-radius: 100%;
+z-index: 100;
+margin-top: -33vh;
+border: 10px solid white;
+}
+p{
+    font-family: 'Lora', serif;
+}
+label{
+    font-family: 'Lora', serif;
+}
+.login h3{
+    font-family: 'Lora', serif;
+}
+.login h1{
+    font-family: 'Lora', serif;
+}
+.font h1{
+    font-family: 'Lora', serif;
+    margin-left: 42vh;
+    font-size: 7vh;
+}
