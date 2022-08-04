@@ -3622,7 +3622,7 @@ blockquote cite:after {
     justify-content: space-between;
     margin: 0;
     position: fixed;
-    width: 1479px;
+    width:100%;
     margin-top: -20px;
 }
 /* about us */

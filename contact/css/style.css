@@ -13,9 +13,19 @@
     border: 20px solid #787878;
 } */
 .page-title-wrap{
-    background-color: cadetblue;
+    background-color: #c6ecff;
     background-image: url(../../assest/curve-top-white.png);
     background-size:contain;
     background-repeat: no-repeat;
     background-position: bottom;
+}
+.navbar {
+    background-color: #005fb1a1;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    margin-top: -20px;
 }
