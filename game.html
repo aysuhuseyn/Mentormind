@@ -9,6 +9,22 @@
     <link rel="icon" type="image/x-icon" href="./assest/mentormind-removebg-preview_1.png">
   </head>
   <body onload="initialize()">
+    <nav class="navbar navbar-expand-lg bg-light" style="    margin: 0;
+    width: 100%;
+    margin-top: -20px;">
+      <div class="container-fluid">
+        <a class="navbar-brand home"  style=" margin-left: 7vh; color:black;" href="#">Home</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active "style="  margin-left: 56vh; color:black;" aria-current="page" href="article.html">Article</a>
+            <a class="nav-link " href="./chat.html" style="color:black;">Chat</a>
+            <a class="nav-link" href="game.html" style="color:black;">Game</a>
+            <a class="nav-link" href="about.html" style="color:black;">About us</a>
+            <a class="nav-link contact" href="contact.html" style="color:black;   margin-left: 72vh;">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <h1>Tic-Tac-Toe</h1>
     <table id="table_game">
       <tr><td class="td_game"><div id="cell0" onclick="cellClicked(this.id)" class="fixed"></div></td><td class="td_game"><div id="cell1" onclick="cellClicked(this.id)" class="fixed"></div></td><td class="td_game"><div id="cell2" onclick="cellClicked(this.id)" class="fixed"></div></td></tr>

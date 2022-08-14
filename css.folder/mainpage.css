@@ -1,18 +1,7 @@
 * {
     box-sizing: border-box;
 }
-.navbar {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    position: fixed;
-    width: 1479px;
-    margin-top: -20px;
-    z-index: 50;
-    height: 10vh;
-}
+
 .navbar .nav-link{
     text-decoration: none;
 }
@@ -131,6 +120,10 @@
     margin-left: 10vh;
     display: flex;
     flex-direction: row;
+    border: 1px solid #cbd5e1;
+    width: 153vh;
+    border-radius: 2vh;
+    height: 52vh;
 }
 
 .member {
@@ -148,7 +141,7 @@
     font-weight: 400;
     font-style: italic;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    margin-top: 5vh;
+    margin-top: 2vh;
     font-size: medium;
 }
 
@@ -156,6 +149,9 @@
     margin-top: 7vh;
     margin-right: 7vh;
     margin-left: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .dr>ul>li>a>i {
@@ -179,11 +175,14 @@ i {
 }
 
 button {
-    background-color: #c6f5e7;
-    border: 1px #c6f5e7;
-    font-size: 2vh;
+    color: white;
+    border-radius: 1vh;
+    background-color: #172e59;
+    border: 1px #172e59;
+    font-size: 17px;
     height: 6vh;
-    width: 16vh;
+    width: 22vh;
+    font-weight: 600;
 }
 
 .dr {
@@ -191,6 +190,23 @@ button {
     flex-direction: row;
 }
 
+.dr_img img{
+    width: 217px;
+    height: 288px;
+    margin: 3vh;
+    border-radius: 2vh;
+}
+.dr_ h3{
+    font-weight: 700;
+    font-size: 26px;
+}
+.line{
+    height: 1px;
+    background: #cfcbcb;
+}
+.web .fa{
+ color: black;
+}
 /* meet page css */
 .meet-container {
     position: relative;
@@ -363,12 +379,25 @@ h5 {
     position: relative;
 }
 .navbar {
-    background-color: #005fb1a1;
-    color: white;
-    display: flex;
-    justify-content: space-between;
     margin: 0;
-    position: fixed;
     width: 100%;
     margin-top: -20px;
+}
+.navbar>.container-fluid>.home{
+    margin-left: 14vh;
+}
+.contact{
+    margin-left: 72vh;
+}
+.active{
+    margin-left: 56vh;
+}
+.inputicon{
+    position: relative;
+}
+.inputicon i{
+    position: absolute;
+    top: 0vh;
+    left: 96vh;
+    color: #158f8d;
 }

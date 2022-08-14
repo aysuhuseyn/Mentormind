@@ -3627,10 +3627,8 @@ blockquote cite:after {
 }
 /* about us */
 .about{
-    background-color: #c6ecff;
     height: 530px;
     padding: 26vh;
-    background-image: url(.././assest/curve-top-white.png);
     background-size:contain;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -3650,18 +3648,85 @@ blockquote cite:after {
     width: 61vh;
     margin: 1vh;
     background-color: #d3f0f74d;
-    margin-top: 45vh;
+    margin-top: 17vh;
     
 }
 .mentor_mind_2{
     border: 1px solid pink;
     width: 57vh;
-    margin-top: -38vh;
-    margin-left: 64vh;
-    height: 37vh;
+    margin-top: 17vh;
+    /* margin-left: 64vh; */
+    height: 42vh;
+    background-color: #ffeaeab0;
 }
 .mentor_mind>a>i{
     font-size: 57px;
     opacity: 0.8;
     margin-top: 5vh;
+}
+.mentor_mind p{
+    margin: 20px;
+}
+.mentor_mind_2 p{
+    margin: 20px;
+}
+.mentor_mind_3{
+    border: 1px solid #d9c3de ;
+    width: 57vh;
+    margin-top: 17vh;
+     /* margin-left: 64vh;  */
+    height: 42vh;
+    background-color: #e6d7e9a1;
+}
+.every_about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mentor_mind_3 p{
+    margin: 20px;
+}
+.about_img-1{
+    height: 60vh;
+    margin-top: -21vh;
+    width: 145vh;
+}
+.about{
+    background-color: #6bbccf;
+}
+.about h2{
+    margin-top: -34vh;
+    margin-left: 79vh;
+}
+.partner h3{
+    color: #6bbccf;
+    margin-left: 83vh;
+    margin-top: 5vh;
+}
+.mentor_mind_3 h3{
+    margin:2vh;
+}
+.femtech{
+    width: 21vh;
+    margin-left: 58vh;
+    margin-top: 4vh;
+}
+.awis{
+    width: 16vh;
+    margin-top: 4vh;
+    margin-left: 8vh;
+}
+.navbar {
+    margin: 0;
+    width: 100%;
+    margin-top: -20px;
+}
+.navbar>.container-fluid>.home{
+    margin-left: 14vh;
+}
+.contact{
+    margin-left: 72vh;
+}
+.active{
+    margin-left: 56vh;
 }

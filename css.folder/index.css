@@ -64,7 +64,7 @@ body {
     border-style: none;
     padding: 8px;
     width: -webkit-fill-available;
-    background-color: #5f9ea0;
+    background-color: #b6ceeb;
     margin-top: 15px;
 }
 
@@ -168,20 +168,6 @@ body {
 h6 {
     color: #777777;
 }
-
-.image::after {
-    content: "";
-    height: 39%;
-    z-index: -1;
-    width: 46%;
-    position: absolute;
-    left: 322px;
-    bottom: 293px;
-    /* background-color: #c2c2c2; */
-    border: 10px solid #c2c2c2;
-    display: inline-block;
-}
-
 .stress-div {
     margin-top: 4vh;
 }
@@ -229,8 +215,8 @@ h6 {
     justify-content: space-evenly;
 }
 .mental_div>.image>img {
-    width: 390px;
-    height: 281px;
+    width: 307px; 
+    height: 272px;
 }
 .mental_div .share{
     width: 28em;
@@ -257,7 +243,7 @@ h6 {
     font-size: 23px;
     margin-top: -7vh;
 }
-bold{
+.bold{
     color: #b6ceeb;
     font-size: 7vh;  
 }
@@ -298,9 +284,64 @@ label{
 }
 
 .customer_pink{
-    background-color: #b6ceeb;
+    background-color:#ffeaea;
     margin-bottom: 20vh;
     padding-bottom: 57vh;
     padding-top: 7vh;
     margin-top: 16vh;
+}
+.customer_purple{
+    background-color:#e6d7e9;
+    margin-bottom: 20vh;
+    padding-bottom: 57vh;
+    padding-top: 7vh;
+    margin-top: 16vh;
+}
+.customer_pink>img{
+    width: 34vh;
+    height: 32vh;
+    border-radius: 100%;
+    z-index: 100;
+    margin-top: -33vh;
+    border: 10px solid white;
+}
+.customer_purple>img{
+        width: 34vh;
+        height: 32vh;
+        border-radius: 100%;
+        z-index: 100;
+        margin-top: -33vh;
+        border: 10px solid white;
+}
+.customer_pink p{
+    margin-left: 40vh;
+    font-size: 23px;
+    margin-top: -7vh;
+}
+.customer_purple p{
+    margin-left: 40vh;
+    font-size: 23px;
+    margin-top: -7vh;
+}
+.bold_purple{
+    color: #e6d7e9;
+    font-size: 7vh;  
+}
+.bold_pink{
+    color:#ffd6d6;
+    font-size: 7vh;  
+}
+.navbar {
+    margin: 0;
+    width: 100%;
+    margin-top: -20px;
+}
+.navbar>.container-fluid>.home{
+    margin-left: 14vh;
+}
+.contact{
+    margin-left: 72vh;
+}
+.active{
+    margin-left: 56vh;
 }
